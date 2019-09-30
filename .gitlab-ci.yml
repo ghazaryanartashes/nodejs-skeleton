@@ -1,0 +1,11 @@
+image: node:8.9.0
+
+stages:
+  - deploy
+deploy:
+  stage: deploy
+  script:
+    - npm i -g pm2
+    - pm2 deploy ecosystem.config.js development
+  only:
+    - dev
