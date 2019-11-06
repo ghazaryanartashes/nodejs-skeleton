@@ -29,7 +29,7 @@
     "mime-db": "1.37.0",
     "mime-lookup": "0.0.2",
     "moment": "^2.22.2",
-    "mongoose": "^5.3.12",
+    "mongoose": "^5.7.5",
     "mongoose-delete": "^0.4.0",
     "mongoose-paginate": "git+https://github.com/andhovesyan/mongoose-paginate.git",
     "mongoose-schema-extend": "git+https://github.com/kennylmay/mongoose-schema-extend.git",
